@@ -84,6 +84,8 @@ content {
 
 .about-wrapper h1 {
     padding-bottom: 30px;
+    font-family: "Segoe UI Light", sans-serif;
+    margin: 0;
 }
 
 .about {
@@ -98,7 +100,8 @@ content {
 .card img {
     width: 220px;
     border-radius: 10%;
-    border: solid 4px rgba(39, 89, 255, 0.839);
+    border: solid 4px rgba(56, 91, 207, 0.839);
+    box-shadow: 5px 7px 20px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card {
@@ -112,8 +115,43 @@ content {
 .card-text {
     width: 200px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
     padding: 10px 0;
 }
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.quote-wrapper {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI Light", sans-serif;
+    font-weight: 100;
+    color: #1F2937;
+    font-size: 26px;
+    padding: 50px;
+}
+
+.quote h1 {
+    margin: 0;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 60px;
+    margin: 0;
+}
+
 
 
 /* Footer */
@@ -125,8 +163,9 @@ footer {
     background-color: #1F2937;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 40px;
 }
+
 
 .social-links {
     display: flex;
